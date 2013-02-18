@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="24aa842e-64a8-40d8-8bd0-f69677f87311" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcf.ExternalAppComms.wsdl" MetadataType="Wsdl" ID="a8981af3-9f58-4332-b7f9-a4dcac09a3b6" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9d498feb-53de-426e-8494-70fa5805a5cd" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="wcf.ExternalAppComms.xsd" MetadataType="Schema" ID="39618eb9-48c5-48fc-a05c-765e1a57eddb" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="0fb0f4e4-0e86-4879-b598-883cf838c560" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="System.xsd" MetadataType="Schema" ID="3d7781f9-4e44-44a5-947b-3d5f7248c372" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.ExternalAppAPI.xsd" MetadataType="Schema" ID="cee04129-1eea-48c6-ae17-8ab50810f07a" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.xsd" MetadataType="Schema" ID="6bf5fb1c-8abe-4f44-8de1-3585362951ee" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.User.xsd" MetadataType="Schema" ID="3c33da1c-95f4-4085-80ad-0927dee2b8ee" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.Messaging.xsd" MetadataType="Schema" ID="a20311c9-6ddb-4a81-b5e8-1b57a526cecd" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="System.Drawing.xsd" MetadataType="Schema" ID="94e392b8-8c5b-4db8-be04-7cb8282d44ce" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.Messaging.MessageElements.xsd" MetadataType="Schema" ID="560fbeff-e474-4524-bd83-8022642d9301" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.Navigation.xsd" MetadataType="Schema" ID="5846cf39-5a13-4be2-bb78-70ee20e4d8e4" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.Billing.xsd" MetadataType="Schema" ID="dbc1bac4-ec9c-4af5-8aba-f35472368561" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+    <MetadataFile FileName="MXit.Log.xsd" MetadataType="Schema" ID="48c1d023-7b6d-4d7d-8502-e9b9ebb3022a" SourceId="1" SourceUrl="http://externalappapi.mxit.com:9151/ExternalAppAPI/Comms/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
